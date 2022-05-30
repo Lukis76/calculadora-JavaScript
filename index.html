@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="previousValue"></div>
+                <div id="currentValue"></div>
+            </div>
+            <button class="col-2" onclick="clearAll()">C</button>
+            <button onclick="clearOne()">&larr;</button>
+            <button class="operation" value="division">%</button>
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="operation" value="multiply">X</button>
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="operation" value="subtract">-</button>
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="operation" value="add">+</button>
+            <button class="col-2 num">0</button>
+            <button class="num">.</button>
+            <button class="operation" value="igual">=</button>
+        </div>
+    </div>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
